@@ -1,0 +1,7 @@
+model: 
+  device: 'cpu'
+  weights: 'COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml'
+  threshold: 0.6
+
+boundingbox:
+  threshold: 0.1
